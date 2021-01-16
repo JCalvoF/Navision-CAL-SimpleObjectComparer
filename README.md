@@ -23,7 +23,7 @@ Para relacionar los objetos entre entornos, se usa el tipo del objeto, el compan
 
 Una vez señalados todos los objetos con diferencias, genera los comandos de la consola de sistema o powershell para:
 
-1. Efectuar la comparativa de código fuente, usando el programa Kdiff3 http://kdiff3.sourceforge.net/
+1. Efectuar la comparativa de código fuente, usando el programa Kdiff3 
 Columna de resultado: Comparison_Commands
 1. Guardar un backup del objeto del servidor 1 en FOB y TXT.
 Columna de resultado: Backup_SVR_1_Commands
@@ -54,10 +54,11 @@ Para hacer el backup de uno de los dos sistemas, es el mismo proceso, copia los 
 
 Para exportar algunos objetos de navision en formato txt, puede ser necesario tener un permiso especial en tu licencia Navision
 
-Kdiff3 instalado y con la ruta del ejecutable en la variable path del sistema windows
+Kdiff3 instalado y con la ruta del ejecutable en la variable path del sistema windows.
+http://kdiff3.sourceforge.net/
 
 Tener instalado el programa Microsoft Dynamics NAV 2013 R2 Development Environmenty con la ruta del ejecutable en la variable path del sistema windows.
-
+Viene con el instalador de Navision
 
 ## Setup del script ##
 
